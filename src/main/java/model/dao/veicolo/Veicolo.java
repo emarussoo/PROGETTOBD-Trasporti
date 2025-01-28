@@ -2,10 +2,11 @@ package model.dao.veicolo;
 
 public class Veicolo {
     private String matricola;
-    private String distanzaInFermate;
+    private int distanzaInFermate;
 
-    public Veicolo(String matricola, String distanzaInFermate) {
+    public Veicolo(String matricola, int distanzaInFermate) {
         this.matricola = matricola;
+        this.distanzaInFermate = distanzaInFermate;
     }
 
     public String getMatricola() {
@@ -16,11 +17,11 @@ public class Veicolo {
         this.matricola = matricola;
     }
 
-    public String getDistanzaInFermate() {
+    public int getDistanzaInFermate() {
         return distanzaInFermate;
     }
 
-    public void setDistanzaInFermate(String distanzaInFermate) {
+    public void setDistanzaInFermate(int distanzaInFermate) {
         this.distanzaInFermate = distanzaInFermate;
     }
 

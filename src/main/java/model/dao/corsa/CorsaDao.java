@@ -2,10 +2,7 @@ package model.dao.corsa;
 
 import utils.ConnHandler;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Time;
+import java.sql.*;
 import java.time.LocalTime;
 
 public class CorsaDao {
@@ -34,5 +31,22 @@ public class CorsaDao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public LocalTime prossima_partenzaProcedure(String cfConducente, String matricolaVeicolo, String codiceCapolinea){
+        LocalTime orario;
+        try{
+            Connection conn = ConnHandler.getConnection();
+            CallableStatement cstmt = conn.prepareCall("{call prossima_partenza(?,?,?,?)}");
+            cstmt.setString(1,cfConducente);
+            cstmt.setString(2, matricolaVeicolo);
+            cstmt.setString(3,codiceCapolinea);
+            cstmt.registerOutParameter(4, Types.TIME);
+            cstmt.execute();
+            orario = cstmt.getTime(4).toLocalTime();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return orario;
     }
 }

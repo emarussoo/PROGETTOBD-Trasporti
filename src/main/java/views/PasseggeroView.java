@@ -46,7 +46,7 @@ public class PasseggeroView {
         PasseggeroController passeggero = new PasseggeroController();
         List<Veicolo> veicoli = passeggero.veicoliInArrivo(codiceFermata);
         for(Veicolo veicolo : veicoli){
-            System.out.println(veicolo.getMatricola() +", "+ veicolo.getDistanzaInFermate());
+            System.out.println("Veicolo "+veicolo.getMatricola() +" a distanza "+ veicolo.getDistanzaInFermate()+ " fermate");
         }
     }
 }

@@ -17,7 +17,7 @@ public class VeicoloDao {
             ResultSet rs = cstmt.getResultSet();
             while(rs.next()){
                 String matricolaVeicolo = rs.getString("matricola");
-                String distanzaInFermate = rs.getString(4);
+                int distanzaInFermate = rs.getInt("distanza");
                 Veicolo veicolo = new Veicolo(matricolaVeicolo, distanzaInFermate);
                 veicoli.add(veicolo);
             }
