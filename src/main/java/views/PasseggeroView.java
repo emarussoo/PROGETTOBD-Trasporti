@@ -16,6 +16,7 @@ public class PasseggeroView {
         while(true){
             System.out.println("--------------Menu passeggero--------------");
             System.out.println("1. Visualizza veicoli in arrivo ad una fermata e la loro distanza");
+            System.out.println("2. exit");
 
             try {
                 choice = Integer.parseInt(br.readLine());
@@ -26,6 +27,9 @@ public class PasseggeroView {
             switch(choice){
                 case 1:
                     veicoliInArrivo();
+                    break;
+                case 2:
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Scelta non valida");

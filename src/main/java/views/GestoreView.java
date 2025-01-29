@@ -17,6 +17,7 @@ public class GestoreView {
             System.out.println("2. Aggiungi abbonamento");
             System.out.println("3. Aggiungi associazione corsa-conducente");
             System.out.println("4. Aggiungi associazione corsa-veicolo");
+            System.out.println("5. exit");
 
             try {
                 choice = Integer.parseInt(br.readLine());
@@ -36,6 +37,9 @@ public class GestoreView {
                     break;
                 case 4:
                     aggiungiAssociazioneCorsaVeicolo();
+                    break;
+                case 5:
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Scelta non valida");

@@ -17,6 +17,7 @@ public class AutistaView {
         while(true){
             System.out.println("--------------Menu autista--------------");
             System.out.println("1. Visualizza prossimo orario di partenza in base a CF, veicolo e capolinea");
+            System.out.println("2. exit");
 
             try {
                 choice = Integer.parseInt(br.readLine());
@@ -27,6 +28,9 @@ public class AutistaView {
             switch(choice){
                 case 1:
                     prossimaPartenza();
+                    break;
+                case 2:
+                    System.exit(0);
                     break;
                 default:
                     System.out.println("Scelta non valida");

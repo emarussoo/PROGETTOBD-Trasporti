@@ -1,7 +1,5 @@
 package model.dao.veicolo;
-
 import utils.ConnHandler;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,5 +23,16 @@ public class VeicoloDao {
             throw new RuntimeException(e);
         }
         return veicoli;
+    }
+
+    public void aggiorna_posizione(String matricolaVeicolo, String codiceFermata, Connection connection){
+        try{
+            CallableStatement cstmt = connection.prepareCall("{call aggiorna_posizione(?,?)}");
+            cstmt.setString(1,matricolaVeicolo);
+            cstmt.setString(2,codiceFermata);
+            cstmt.execute();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

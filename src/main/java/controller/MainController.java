@@ -16,6 +16,8 @@ public class MainController {
     }
 
     public void start(){
+        ThreadController threadController = new ThreadController();
+        threadController.start();
         LoginView loginView = new LoginView();
         Credentials cred = loginView.getCredentials();
         LoginController loginController = new LoginController();
@@ -39,8 +41,6 @@ public class MainController {
                 break;
                 default:
                     break;
-
         }
-
     }
 }

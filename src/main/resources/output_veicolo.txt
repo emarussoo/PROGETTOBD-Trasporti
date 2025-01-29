@@ -1,0 +1,39 @@
+Veicolo 0000 partito per la tratta 0
+Veicolo 0008 partito per la tratta 2
+Veicolo 0004 partito per la tratta 1
+Veicolo 0004 avanza alla fermata 00055
+Veicolo 0008 avanza alla fermata 00067
+Veicolo 0000 avanza alla fermata 00054
+Veicolo 0004 avanza alla fermata 00068
+Veicolo 0008 avanza alla fermata 00060
+Veicolo 0000 avanza alla fermata 00095
+Veicolo 0004 avanza alla fermata 00075
+Veicolo 0008 avanza alla fermata 00052
+Veicolo 0000 avanza alla fermata 00099
+Veicolo 0000 avanza alla fermata 00054
+Veicolo 0004 avanza alla fermata 00055
+Veicolo 0008 avanza alla fermata 00067
+Veicolo 0000 avanza alla fermata 00095
+Veicolo 0004 avanza alla fermata 00068
+Veicolo 0008 avanza alla fermata 00060
+Veicolo 0000 avanza alla fermata 00099
+Veicolo 0004 avanza alla fermata 00075
+Veicolo 0008 avanza alla fermata 00052
+Veicolo 0000 avanza alla fermata 00054
+Veicolo 0004 avanza alla fermata 00055
+Veicolo 0008 avanza alla fermata 00067
+Veicolo 0000 avanza alla fermata 00095
+Veicolo 0004 avanza alla fermata 00068
+Veicolo 0008 avanza alla fermata 00060
+Veicolo 0000 avanza alla fermata 00099
+Veicolo 0004 avanza alla fermata 00075
+Veicolo 0008 avanza alla fermata 00052
+Veicolo 0000 avanza alla fermata 00054
+Veicolo 0008 avanza alla fermata 00067
+Veicolo 0004 avanza alla fermata 00055
+Veicolo 0000 avanza alla fermata 00095
+Veicolo 0004 avanza alla fermata 00068
+Veicolo 0008 avanza alla fermata 00060
+Veicolo 0000 avanza alla fermata 00099
+Veicolo 0004 avanza alla fermata 00075
+Veicolo 0008 avanza alla fermata 00052
