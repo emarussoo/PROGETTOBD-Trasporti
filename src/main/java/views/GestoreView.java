@@ -59,7 +59,6 @@ public class GestoreView {
         }
         GestoreController gestore = new GestoreController();
         gestore.aggiungiBiglietto(codiceBiglietto);
-
     }
 
     public static void aggiungiAbbonamento(){

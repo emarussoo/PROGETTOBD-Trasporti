@@ -12,7 +12,6 @@ import java.util.Properties;
 public class ConnHandler {
     private static Connection connection;
     static {
-        // Does not work if generating a jar file
         try (InputStream input = new FileInputStream("src/main/resources/database.properties")) {
             Properties properties = new Properties();
             properties.load(input);

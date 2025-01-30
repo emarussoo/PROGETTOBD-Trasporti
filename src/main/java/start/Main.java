@@ -9,6 +9,18 @@ public class Main {
     }
 }
 
+/*
+* credenziali gestore
+*                      user123456
+*                      pwA1B2C3D4
+* credenziali passeggero
+*                       user234567
+*                       pwE5F6G7H8I
+* credenziali autista
+*                       user345678
+*                       pwJ9K0L1M2N
+*/
+
 
 /*
 * esempio conducente

@@ -6,7 +6,6 @@ import utils.ConnHandler;
 import views.PasseggeroView;
 
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class PasseggeroController {

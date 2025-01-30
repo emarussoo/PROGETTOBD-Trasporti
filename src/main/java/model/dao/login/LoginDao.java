@@ -1,5 +1,6 @@
 package model.dao.login;
 
+import exceptions.GenericDaoException;
 import utils.ConnHandler;
 
 import java.sql.CallableStatement;
@@ -19,7 +20,7 @@ public class LoginDao {
             cstmt.execute();
             role = cstmt.getString(3);
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            throw new GenericDaoException(e.getMessage());
         }
         return role;
     }
